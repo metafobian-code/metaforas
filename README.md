@@ -47,16 +47,14 @@ Todo está en `index.html`:
 - **Mensajes del syslog ambiental**: el arreglo `AMB`.
 - **Palabras ocultas del hexdump**: el arreglo `HIDDEN` (8 caracteres cada una).
 - **Velocidad de escritura**: el tercer argumento de cada llamada a `type(...)` (milisegundos por letra).
-- **Título**: la imagen `assets/titulo.png`.
+- **Título**: la imagen `titulo.png`.
 
 ## Estructura
 
 ```
 metafora-404/
 ├── index.html        # toda la interfaz (HTML + CSS + JS)
-├── assets/
-│   └── titulo.png    # título METÁFORA 404
-├── .nojekyll         # GitHub Pages sirve los archivos tal cual
+├── titulo.png        # título METÁFORA 404
 └── README.md
 ```
 
